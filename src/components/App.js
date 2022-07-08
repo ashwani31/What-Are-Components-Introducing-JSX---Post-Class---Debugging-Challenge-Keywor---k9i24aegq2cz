@@ -9,7 +9,7 @@ const App = () => {
 
   return (
     <div class="ball">
-      <button class="increment-button" onClick={increment}>
+      <button class="increment-button" ondbClick={increment}>
         Increment
       </button>
     </div>
